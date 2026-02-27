@@ -18,7 +18,6 @@ public class IntegrationTest {
 
         Main.runOnce(in, out);
 
-        // Нормалізація для різних ОС
         return baos.toString(StandardCharsets.UTF_8).replace("\r", "");
     }
 
@@ -60,7 +59,6 @@ public class IntegrationTest {
 
         String output = runWithInput(input);
 
-        // Стабільно: не залежить від пробілів/формату чисел (x0= / x0= )
         assertTrue(output.contains("Єдина точка перетину прямих"),
                 "Output was:\n" + output);
     }
