@@ -189,9 +189,6 @@ ST_Lab1/
 │   │   └── java/
 │   │       └── lab1/
 │   │           │
-│   │           ├── app/
-│   │           │   └── ConsoleApp.java
-│   │           │
 │   │           ├── geometry/
 │   │           │   ├── Geometry.java
 │   │           │   ├── PairIntersection.java
